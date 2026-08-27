@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/api/crm/:path*", "destination": "https://fakeapifordevs.vercel.app/api/crm/:path*" },
+    { "source": "/api/auth/:path*", "destination": "https://fakeapifordevs.vercel.app/api/auth/:path*" },
+    { "source": "/api/notifications/:path*", "destination": "https://fakeapifordevs.vercel.app/api/notifications/:path*" }
+  ]
+}
