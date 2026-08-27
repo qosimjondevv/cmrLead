@@ -22,8 +22,13 @@ export function useRecruitingPage() {
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase()
     if (!q) return candidates
+    const digits = q.replace(/\D/g, '')
     return candidates.filter(
-      (c) => c.name.toLowerCase().includes(q) || c.position?.toLowerCase().includes(q)
+      (c) =>
+        c.name.toLowerCase().includes(q) ||
+        c.position?.toLowerCase().includes(q) ||
+        c.phone?.toLowerCase().includes(q) ||
+        (digits && c.phone?.replace(/\D/g, '').includes(digits))
     )
   }, [candidates, search])
 

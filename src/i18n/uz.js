@@ -332,7 +332,7 @@ export const uz = {
     title: 'Rekruting',
     description: "Nomzodlarni bosqichlar bo'yicha kuzatib boring",
     newCandidate: 'Yangi nomzod',
-    searchPlaceholder: 'Nomzodlarni qidirish...',
+    searchPlaceholder: "Ism, lavozim yoki telefon bo'yicha qidirish...",
     noCandidates: 'Nomzodlar yo‘q',
     noCandidatesDescription: "Bu bosqichda hali nomzodlar yo'q.",
     movedTo: "Nomzod ko'chirildi:",

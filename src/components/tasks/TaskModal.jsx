@@ -48,7 +48,7 @@ export function TaskModal({ open, onOpenChange, deals, defaultDueDate, onSubmit 
                 <SelectTrigger id="task-deal">
                   <SelectValue placeholder={t('common.none')} />
                 </SelectTrigger>
-                <SelectContent>
+                <SelectContent side="bottom" avoidCollisions={false}>
                   {deals.map((d) => (
                     <SelectItem key={d.id} value={d.id}>
                       {d.title}

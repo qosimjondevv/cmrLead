@@ -332,7 +332,7 @@ export const ru = {
     title: 'Рекрутинг',
     description: 'Отслеживайте кандидатов по этапам',
     newCandidate: 'Новый кандидат',
-    searchPlaceholder: 'Поиск кандидатов...',
+    searchPlaceholder: 'Поиск по имени, должности или телефону...',
     noCandidates: 'Нет кандидатов',
     noCandidatesDescription: 'На этом этапе пока нет кандидатов.',
     movedTo: 'Кандидат перемещён на этап:',
